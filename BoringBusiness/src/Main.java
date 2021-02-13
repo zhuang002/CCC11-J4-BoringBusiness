@@ -27,6 +27,7 @@ public class Main {
 				System.out.println(newPosition.x+" "+newPosition.y+"safe");
 				takenPositions.add(newPosition);
 				currentPosition=newPosition;
+				line=sc.nextLine();
 			}
 		}
 	}
